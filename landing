@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore New Zealand Adventures</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Roboto', sans-serif; line-height: 1.6; color: #333; }
+    header { background: url('https://your-tours-image.com/nz-mountains.jpg') center/cover no-repeat; padding: 4rem 2rem; color: white; text-align: center; }
+    header h1 { font-size: 2.5rem; }
+    .cta { background-color: #00704A; color: white; padding: 1em; border: none; font-size: 1.2em; cursor: pointer; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 1rem; }
+    .section { padding: 2rem; max-width: 960px; margin: auto; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .badge { background-color: #f5f5f5; padding: 1rem; border-radius: 5px; }
+    .reviews blockquote { font-style: italic; margin: 0.5rem 0; }
+    footer { background: #fafafa; text-align: center; padding: 1rem; font-size: 0.9em; }
+    @media (max-width: 768px) {
+      .grid { grid-template-columns: 1fr; }
+      header h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Explore New Zealand Like Never Before</h1>
+  <p>Small-Group Tours • Local Guides • Unforgettable Adventures</p>
+  <a href="#booking" class="cta">Check Availability</a>
+</header>
+
+<section class="section">
+  <h2>🌟 7-Day South Island Adventure</h2>
+  <ul>
+    <li>📍 Queenstown → Milford Sound → Mount Cook</li>
+    <li>🚐 All-inclusive transport & boutique stays</li>
+    <li>🍽️ Daily breakfast + 2 specialty dinners</li>
+    <li>✅ USD pricing • Free cancellation • 4.9 ★ reviews</li>
+  </ul>
+</section>
+
+<section class="section badge">
+  <h3>🧭 What’s Included</h3>
+  <div class="grid">
+    <ul>
+      <li>✅ Airport Pickup</li>
+      <li>✅ 3-Star & Boutique Accommodation</li>
+      <li>✅ Kiwi Adventure Guide</li>
+      <li>✅ Daily Excursions & Park Entries</li>
+    </ul>
+    <ul>
+      <li>❌ Flights to/from NZ</li>
+      <li>❌ Personal Travel Insurance</li>
+      <li>❌ Alcoholic Drinks</li>
+      <li>❌ Optional Add-ons</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section reviews">
+  <h3>💬 Traveler Testimonials</h3>
+  <blockquote>“The trip of a lifetime. Our guide made NZ feel like home.” – Jenna R., Seattle</blockquote>
+  <blockquote>“Perfect balance of adventure and downtime. Stargazing in Mt. Cook? Unreal.” – Adam C., Austin</blockquote>
+</section>
+
+<section class="section" id="booking">
+  <h2>🔒 Reserve Your Spot</h2>
+  <p>100% refundable within 72 hours. Limited spots for July & August departures.</p>
+  <a href="https://yourbookinglink.com" class="cta">Reserve Now</a>
+  <p><small>Need help? 📧 hello@yourtours.co.nz or Live Chat Available</small></p>
+</section>
+
+<footer>
+  🌐 © 2025 Your Tours NZ · USD Accepted · Secure Booking Guaranteed
+</footer>
+
+</body>
+</html>
